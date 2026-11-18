@@ -1,0 +1,3334 @@
+{
+  "schemaVersion": "1.0.0",
+  "title": "음성공장 통근버스 노선표",
+  "updatedAt": "2026-11-18",
+  "generalNotes": [
+    "음성공장 통근버스는 일요일~금요일 운행합니다.",
+    "토요일은 청주 조간/주간 2대만 운행합니다."
+  ],
+  "addressPolicy": "boardingAddress는 빈 문자열을 허용합니다. 값이 있을 때만 일반 화면에 표시됩니다.",
+  "routes": [
+    {
+      "id": "cj-dawn-yeongun-yullyang",
+      "category": "청주 출근",
+      "service": "조간 출근",
+      "name": "영운/율량 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "03.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-dawn-yeongun-yullyang-s01",
+          "name": "동남지구 파라곤아파트 버스정류장",
+          "times": [
+            "05:19"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yeongun-yullyang-s02",
+          "name": "동남지구 파밀리에 치과 맞은편",
+          "times": [
+            "05:20"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yeongun-yullyang-s03",
+          "name": "용암성당 맞은편 정류장",
+          "times": [
+            "05:24"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yeongun-yullyang-s04",
+          "name": "홈타운 횡단보도",
+          "times": [
+            "05:26"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yeongun-yullyang-s05",
+          "name": "이화산부인과 앞",
+          "times": [
+            "05:30"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yeongun-yullyang-s06",
+          "name": "육거리(영춘당 한약방)",
+          "times": [
+            "05:33"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yeongun-yullyang-s07",
+          "name": "영프라자 건너(공원 화방)",
+          "times": [
+            "05:35"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yeongun-yullyang-s08",
+          "name": "북문119안전센터",
+          "times": [
+            "05:37"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yeongun-yullyang-s09",
+          "name": "LG유플러스 우암동 청대점",
+          "times": [
+            "05:42"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yeongun-yullyang-s10",
+          "name": "운천동 주민센터 앞",
+          "times": [
+            "05:47"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yeongun-yullyang-s11",
+          "name": "신봉사거리 (델코밧데리운천카종합센터)",
+          "times": [
+            "05:50"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yeongun-yullyang-s12",
+          "name": "시영사거리(농협 앞)",
+          "times": [
+            "05:53"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yeongun-yullyang-s13",
+          "name": "덕성초 맞은편(구. 쉐보레자동차)",
+          "times": [
+            "05:59"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-dawn-yongam-bongmyeong",
+      "category": "청주 출근",
+      "service": "조간 출근",
+      "name": "용암/봉명 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "04.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-dawn-yongam-bongmyeong-s01",
+          "name": "방서지구 다이소 앞",
+          "times": [
+            "05:17"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yongam-bongmyeong-s02",
+          "name": "청주 농협용암지점 버스정류장",
+          "times": [
+            "05:25"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yongam-bongmyeong-s03",
+          "name": "금천고(팔각정) 정류장",
+          "times": [
+            "05:26"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yongam-bongmyeong-s04",
+          "name": "금천사우나 건너편(장자마을 9단지, 10단지아파트 정류장)",
+          "times": [
+            "05:27"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yongam-bongmyeong-s05",
+          "name": "금천현대 건너편(정류장)",
+          "times": [
+            "05:32"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yongam-bongmyeong-s06",
+          "name": "효성병원 사거리(이브자리)",
+          "times": [
+            "05:33"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yongam-bongmyeong-s07",
+          "name": "모충대교 흙침대 앞",
+          "times": [
+            "05:39"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yongam-bongmyeong-s08",
+          "name": "사직사거리 BYC",
+          "times": [
+            "05:43"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yongam-bongmyeong-s09",
+          "name": "사창사거리 (삼성가스 맞은편 이마트24)",
+          "times": [
+            "05:47"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yongam-bongmyeong-s10",
+          "name": "봉명사거리(우리은행)",
+          "times": [
+            "05:50"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yongam-bongmyeong-s11",
+          "name": "봉명 서원경 주유소",
+          "times": [
+            "05:51"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yongam-bongmyeong-s12",
+          "name": "솔밭공원 버스정류장",
+          "times": [
+            "05:56"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-dawn-bunpyeong-gaesin",
+      "category": "청주 출근",
+      "service": "조간 출근",
+      "name": "분평/개신 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "05.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-dawn-bunpyeong-gaesin-s01",
+          "name": "분평2단지 대웅약국 앞",
+          "times": [
+            "05:20"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-bunpyeong-gaesin-s02",
+          "name": "분평1단지 뜨란채 정류장",
+          "times": [
+            "05:22"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-bunpyeong-gaesin-s03",
+          "name": "청주남부정류소 하차장",
+          "times": [
+            "05:26"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-bunpyeong-gaesin-s04",
+          "name": "수곡중학교 맞은편 버스정류장",
+          "times": [
+            "05:29"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-bunpyeong-gaesin-s05",
+          "name": "수곡초 (한마음@ 입구)",
+          "times": [
+            "05:33"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-bunpyeong-gaesin-s06",
+          "name": "KBS 맞은편 버스정류장",
+          "times": [
+            "05:40"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-bunpyeong-gaesin-s07",
+          "name": "서남교회",
+          "times": [
+            "05:42"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-bunpyeong-gaesin-s08",
+          "name": "개신동 롯데리아",
+          "times": [
+            "05:45"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-bunpyeong-gaesin-s09",
+          "name": "덕일타운(다리)",
+          "times": [
+            "05:48"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-bunpyeong-gaesin-s10",
+          "name": "오성당 앞 버스정류장",
+          "times": [
+            "05:50"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-bunpyeong-gaesin-s11",
+          "name": "시외버스터미널 맞은편 롯데마트 입구",
+          "times": [
+            "05:52"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-bunpyeong-gaesin-s12",
+          "name": "가경서현초 버스정류장",
+          "times": [
+            "05:55"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-dawn-yullyang-ochang",
+      "category": "청주 출근",
+      "service": "조간 출근",
+      "name": "율량/오창 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "06.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-dawn-yullyang-ochang-s01",
+          "name": "석우문화체육관 맞은편",
+          "times": [
+            "05:15"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yullyang-ochang-s02",
+          "name": "럭키아파트 맞은편 항아리보쌈",
+          "times": [
+            "05:20"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yullyang-ochang-s03",
+          "name": "청원경찰서 율량지구대 앞",
+          "times": [
+            "05:25"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yullyang-ochang-s04",
+          "name": "송절동 지웰푸르지오 정문 버스정류장",
+          "times": [
+            "05:32"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yullyang-ochang-s05",
+          "name": "송절동 테크노폴리스 힐데스하임 버스정류장",
+          "times": [
+            "05:36"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yullyang-ochang-s06",
+          "name": "오창 우림1차 정류장",
+          "times": [
+            "05:50"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yullyang-ochang-s07",
+          "name": "오창호수공원",
+          "times": [
+            "05:53"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yullyang-ochang-s08",
+          "name": "오창 스타레이크 앞 버스정류장(샤인당화장품 오창공장 앞)",
+          "times": [
+            "05:58"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-yullyang-ochang-s09",
+          "name": "구오창(오창낚시 앞)",
+          "times": [
+            "06:01"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-dawn-mochung-habokdae",
+      "category": "청주 출근",
+      "service": "조간 출근",
+      "name": "모충/하복대 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "07.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-dawn-mochung-habokdae-s01",
+          "name": "모충방앗간 앞",
+          "times": [
+            "05:20"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-mochung-habokdae-s02",
+          "name": "효자문 맞은편(버스정류장)",
+          "times": [
+            "05:22"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-mochung-habokdae-s03",
+          "name": "크리스탈 사우나 앞",
+          "times": [
+            "05:24"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-mochung-habokdae-s04",
+          "name": "통신대 입구 맞은편 (빨래방 앞)",
+          "times": [
+            "05:26"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-mochung-habokdae-s05",
+          "name": "사창사거리 (칸타빌 아파트 출구)",
+          "times": [
+            "05:30"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-mochung-habokdae-s06",
+          "name": "복대사거리 (아동병원 앞)",
+          "times": [
+            "05:38"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-mochung-habokdae-s07",
+          "name": "하복대 현대 2차 아파트 입구",
+          "times": [
+            "05:43"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-mochung-habokdae-s08",
+          "name": "아름다운 나날 1차 입구",
+          "times": [
+            "05:45"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-dawn-mochung-habokdae-s09",
+          "name": "효성아파트 건너편 정류장",
+          "times": [
+            "05:52"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-day-bongmyeong-ochang",
+      "category": "청주 출근",
+      "service": "주간 출근",
+      "name": "봉명,오창 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "08.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-day-bongmyeong-ochang-s01",
+          "name": "충청대학교 평생직업교육원 버스정류장",
+          "times": [
+            "06:40"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bongmyeong-ochang-s02",
+          "name": "극동주얼리 아파트(후문)",
+          "times": [
+            "06:43"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bongmyeong-ochang-s03",
+          "name": "송절동 지웰푸르지오 정문 버스정류장",
+          "times": [
+            "06:55"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bongmyeong-ochang-s04",
+          "name": "송절동 테크노폴리스 힐데스하임 버스정류장",
+          "times": [
+            "06:59"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bongmyeong-ochang-s05",
+          "name": "오창 우림1차 정류장",
+          "times": [
+            "07:15"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bongmyeong-ochang-s06",
+          "name": "오창호수공원",
+          "times": [
+            "07:19"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bongmyeong-ochang-s07",
+          "name": "오창 스타레이크 앞 버스정류장 (샤인당화장품 오창공장 앞)",
+          "times": [
+            "07:25"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bongmyeong-ochang-s08",
+          "name": "구오창 (오창낚시 앞)",
+          "times": [
+            "07:30"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-day-yongam-yullyang",
+      "category": "청주 출근",
+      "service": "주간 출근",
+      "name": "용암, 율량 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "09.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-day-yongam-yullyang-s01",
+          "name": "방서지구 다이소 앞",
+          "times": [
+            "06:40"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-yongam-yullyang-s02",
+          "name": "용암동 현대 홈타운 입구",
+          "times": [
+            "06:45"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-yongam-yullyang-s03",
+          "name": "태산아파트 버스정류장",
+          "times": [
+            "06:47"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-yongam-yullyang-s04",
+          "name": "김수녕 양궁장 주유소(SK)",
+          "times": [
+            "06:50"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-yongam-yullyang-s05",
+          "name": "석우문화체육관 맞은편",
+          "times": [
+            "07:03"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-yongam-yullyang-s06",
+          "name": "럭키아파트 맞은편 항아리보쌈",
+          "times": [
+            "07:10"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-yongam-yullyang-s07",
+          "name": "청원경찰서 율량지구대 앞",
+          "times": [
+            "07:12"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-day-sannam-gagyeong",
+      "category": "청주 출근",
+      "service": "주간 출근",
+      "name": "산남, 가경 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "10.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-day-sannam-gagyeong-s01",
+          "name": "산남 살롱드 푸즈 미용실 앞",
+          "times": [
+            "06:45"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-sannam-gagyeong-s02",
+          "name": "KBS 맞은편 버스정류장",
+          "times": [
+            "06:50"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-sannam-gagyeong-s03",
+          "name": "서남교회",
+          "times": [
+            "06:53"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-sannam-gagyeong-s04",
+          "name": "개신동 롯데리아",
+          "times": [
+            "06:57"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-sannam-gagyeong-s05",
+          "name": "덕일타운 (다리)",
+          "times": [
+            "07:02"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-sannam-gagyeong-s06",
+          "name": "오성당 앞 버스정류장",
+          "times": [
+            "07:04"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-sannam-gagyeong-s07",
+          "name": "시외버스터미널 맞은편 롯데마트 입구",
+          "times": [
+            "07:07"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-sannam-gagyeong-s08",
+          "name": "가경서현초 버스정류장",
+          "times": [
+            "07:10"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-day-bunpyeong-yullyang",
+      "category": "청주 출근",
+      "service": "주간 출근",
+      "name": "분평, 율량 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "11.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-day-bunpyeong-yullyang-s01",
+          "name": "분평2단지 대웅약국 앞",
+          "times": [
+            "06:38"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bunpyeong-yullyang-s02",
+          "name": "분평1단지 뜨란채 정류장",
+          "times": [
+            "06:39"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bunpyeong-yullyang-s03",
+          "name": "청주남부정류소 하차장",
+          "times": [
+            "06:44"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bunpyeong-yullyang-s04",
+          "name": "수곡중학교 맞은편 버스정류장",
+          "times": [
+            "06:46"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bunpyeong-yullyang-s05",
+          "name": "수곡초 (한마음@ 입구)",
+          "times": [
+            "06:49"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bunpyeong-yullyang-s06",
+          "name": "사창사거리 (삼성가스 맞은편 이마트24)",
+          "times": [
+            "06:56"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bunpyeong-yullyang-s07",
+          "name": "봉명사거리 (건강검진센터)",
+          "times": [
+            "07:00"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bunpyeong-yullyang-s08",
+          "name": "신봉사거리 (부자알뜰주유소)",
+          "times": [
+            "07:04"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bunpyeong-yullyang-s09",
+          "name": "시영사거리 (농협 앞)",
+          "times": [
+            "07:07"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-bunpyeong-yullyang-s10",
+          "name": "신한은행 (사천동 지점)",
+          "times": [
+            "07:13"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-day-mochung-habokdae",
+      "category": "청주 출근",
+      "service": "주간 출근",
+      "name": "모충, 하복대 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "12.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-day-mochung-habokdae-s01",
+          "name": "모충방앗간 앞",
+          "times": [
+            "06:40"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-mochung-habokdae-s02",
+          "name": "효자문 맞은편 (버스정류장)",
+          "times": [
+            "06:41"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-mochung-habokdae-s03",
+          "name": "크리스탈 사우나 앞",
+          "times": [
+            "06:43"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-mochung-habokdae-s04",
+          "name": "통신대 입구 맞은편 (빨래방 앞)",
+          "times": [
+            "06:45"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-mochung-habokdae-s05",
+          "name": "사창사거리 (칸타빌 아파트 출구)",
+          "times": [
+            "06:50"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-mochung-habokdae-s06",
+          "name": "복대사거리 (아동병원 앞)",
+          "times": [
+            "06:56"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-mochung-habokdae-s07",
+          "name": "하복대 현대 2차 아파트 입구",
+          "times": [
+            "07:00"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-mochung-habokdae-s08",
+          "name": "아름다운 나날 1차 입구",
+          "times": [
+            "07:03"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-mochung-habokdae-s09",
+          "name": "효성아파트 건너편 정류장",
+          "times": [
+            "07:07"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-day-geumcheon-uam",
+      "category": "청주 출근",
+      "service": "주간 출근",
+      "name": "금천, 우암 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "13.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-day-geumcheon-uam-s01",
+          "name": "동남지구 파라곤아파트 버스정류장",
+          "times": [
+            "06:39"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-geumcheon-uam-s02",
+          "name": "동남지구 파밀리에치과 맞은편",
+          "times": [
+            "06:40"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-geumcheon-uam-s03",
+          "name": "청주 농협용암지점 버스정류장",
+          "times": [
+            "06:43"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-geumcheon-uam-s04",
+          "name": "금천사우나 건너편 (장자마을 9,10단지 아파트 정류장)",
+          "times": [
+            "06:45"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-geumcheon-uam-s05",
+          "name": "금천현대 건너편 (정류장)",
+          "times": [
+            "06:50"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-geumcheon-uam-s06",
+          "name": "효성병원 사거리 (이브자리)",
+          "times": [
+            "06:51"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-geumcheon-uam-s07",
+          "name": "육거리 (영춘당 한약방)",
+          "times": [
+            "06:53"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-geumcheon-uam-s08",
+          "name": "영프라자 건너 (공원 화방)",
+          "times": [
+            "06:56"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-geumcheon-uam-s09",
+          "name": "우암초등학교 정문 앞",
+          "times": [
+            "07:00"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-day-geumcheon-uam-s10",
+          "name": "덕성초 맞은편 (구. 쉐보레 자동차)",
+          "times": [
+            "07:08"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-evening",
+      "category": "청주 출근",
+      "service": "석간 출근",
+      "name": "석간 출근 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "14.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-evening-s01",
+          "name": "금천사우나",
+          "times": [
+            "10:42"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-evening-s02",
+          "name": "육거리 영춘당 사우나 앞",
+          "times": [
+            "10:52"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-evening-s03",
+          "name": "분평2단지 대웅약국 앞",
+          "times": [
+            "10:58"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-evening-s04",
+          "name": "청주 남부정류소 하차장",
+          "times": [
+            "11:02"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-evening-s05",
+          "name": "사창사거리 (칸타빌 아파트 출구)",
+          "times": [
+            "11:09"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-evening-s06",
+          "name": "복대동 서울아동병원 앞",
+          "times": [
+            "11:17"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-evening-s07",
+          "name": "현대병원 맞은편 버스정류장",
+          "times": [
+            "11:22"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-evening-s08",
+          "name": "율량중학교 입구 버스정류장",
+          "times": [
+            "11:37"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-evening-s09",
+          "name": "오창 우림1차 정류장",
+          "times": [
+            "11:47"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-evening-s10",
+          "name": "오창스타레이크 앞 버스정류장 (샤인당화장품 오창공장 앞)",
+          "times": [
+            "11:52"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-night19-yeongun-yullyang",
+      "category": "청주 출근",
+      "service": "야간 출근 (19시)",
+      "name": "영운/율량 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "15.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-night19-yeongun-yullyang-s01",
+          "name": "동남지구 파라곤아파트 버스정류장",
+          "times": [
+            "17:16"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s02",
+          "name": "동남지구 파밀리에치과 맞은편",
+          "times": [
+            "17:17"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s03",
+          "name": "용암성당 맞은편 정류장",
+          "times": [
+            "17:22"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s04",
+          "name": "홈타운 횡단보도",
+          "times": [
+            "17:24"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s05",
+          "name": "이화산부인과 앞",
+          "times": [
+            "17:28"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s06",
+          "name": "육거리 (영춘당 한약방)",
+          "times": [
+            "17:32"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s07",
+          "name": "영프라자 건너 (공원 화방)",
+          "times": [
+            "17:34"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s08",
+          "name": "북문119안전센터",
+          "times": [
+            "17:36"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s09",
+          "name": "LG유플러스 우암동 청대점",
+          "times": [
+            "17:41"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s10",
+          "name": "운천동 주민센터 앞",
+          "times": [
+            "17:46"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s11",
+          "name": "신봉사거리 (델코밧데리운천카종합센터)",
+          "times": [
+            "17:50"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s12",
+          "name": "시영사거리 (농협 앞)",
+          "times": [
+            "17:53"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s13",
+          "name": "덕성초 맞은편 (구. 쉐보레 자동차)",
+          "times": [
+            "17:59"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yeongun-yullyang-s14",
+          "name": "율량중학교 입구 버스정류장",
+          "times": [
+            "18:04"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-night19-yongam-bongmyeong",
+      "category": "청주 출근",
+      "service": "야간 출근 (19시)",
+      "name": "용암/봉명 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "16.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-night19-yongam-bongmyeong-s01",
+          "name": "방서지구 다이소 앞",
+          "times": [
+            "17:10"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yongam-bongmyeong-s02",
+          "name": "청주 농협용암지점 버스정류장",
+          "times": [
+            "17:18"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yongam-bongmyeong-s03",
+          "name": "금천고(팔각정) 정류장",
+          "times": [
+            "17:19"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yongam-bongmyeong-s04",
+          "name": "금천사우나 건너편 (장자마을 9,10단지 아파트 정류장)",
+          "times": [
+            "17:20"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yongam-bongmyeong-s05",
+          "name": "금천현대 건너편 정류장",
+          "times": [
+            "17:25"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yongam-bongmyeong-s06",
+          "name": "효성병원 사거리 (이브자리)",
+          "times": [
+            "17:26"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yongam-bongmyeong-s07",
+          "name": "모충대교 흙침대 앞",
+          "times": [
+            "17:32"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yongam-bongmyeong-s08",
+          "name": "사직사거리 BYC",
+          "times": [
+            "17:35"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yongam-bongmyeong-s09",
+          "name": "사창사거리 (삼성가스 맞은편 이마트24)",
+          "times": [
+            "17:40"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yongam-bongmyeong-s10",
+          "name": "봉명사거리 (우리은행)",
+          "times": [
+            "17:43"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yongam-bongmyeong-s11",
+          "name": "봉명 서원경 주유소",
+          "times": [
+            "17:44"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-yongam-bongmyeong-s12",
+          "name": "솔밭공원 버스정류장",
+          "times": [
+            "17:47"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-night19-bunpyeong-gaesin",
+      "category": "청주 출근",
+      "service": "야간 출근 (19시)",
+      "name": "분평/개신 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "17.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-night19-bunpyeong-gaesin-s01",
+          "name": "분평2단지 대웅약국 앞",
+          "times": [
+            "17:20"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-bunpyeong-gaesin-s02",
+          "name": "분평1단지 뜨란채 정류장",
+          "times": [
+            "17:22"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-bunpyeong-gaesin-s03",
+          "name": "청주남부정류소 하차장",
+          "times": [
+            "17:27"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-bunpyeong-gaesin-s04",
+          "name": "수곡중학교 맞은편 버스정류장",
+          "times": [
+            "17:29"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-bunpyeong-gaesin-s05",
+          "name": "수곡초 (한마음@ 입구)",
+          "times": [
+            "17:32"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-bunpyeong-gaesin-s06",
+          "name": "KBS 맞은편 버스정류장",
+          "times": [
+            "17:40"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-bunpyeong-gaesin-s07",
+          "name": "서남교회",
+          "times": [
+            "17:42"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-bunpyeong-gaesin-s08",
+          "name": "개신동 롯데리아",
+          "times": [
+            "17:46"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-bunpyeong-gaesin-s09",
+          "name": "덕일타운 (다리)",
+          "times": [
+            "17:50"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-bunpyeong-gaesin-s10",
+          "name": "오성당 앞 버스정류장",
+          "times": [
+            "17:52"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-bunpyeong-gaesin-s11",
+          "name": "시외버스터미널 맞은편 롯데마트 입구",
+          "times": [
+            "17:55"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-bunpyeong-gaesin-s12",
+          "name": "영조1차아파트 버스정류장",
+          "times": [
+            "18:00"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-night19-habokdae-ochang",
+      "category": "청주 출근",
+      "service": "야간 출근 (19시)",
+      "name": "하복대/오창 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "18.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-night19-habokdae-ochang-s01",
+          "name": "석우문화체육관 맞은편",
+          "times": [
+            "17:12"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-habokdae-ochang-s02",
+          "name": "럭키아파트 맞은편 항아리보쌈",
+          "times": [
+            "17:17"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-habokdae-ochang-s03",
+          "name": "청원경찰서 율량지구대 앞",
+          "times": [
+            "17:20"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-habokdae-ochang-s04",
+          "name": "송절동 지웰푸르지오 정문 버스정류장",
+          "times": [
+            "17:25"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-habokdae-ochang-s05",
+          "name": "송절동 테크노폴리스 힐데스하임 버스정류장",
+          "times": [
+            "17:27"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-habokdae-ochang-s06",
+          "name": "오창 우림1차 정류장",
+          "times": [
+            "17:45"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-habokdae-ochang-s07",
+          "name": "오창호수공원",
+          "times": [
+            "17:50"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-habokdae-ochang-s08",
+          "name": "오창 스타레이크 앞 버스정류장 (샤인당화장품 오창공장 앞)",
+          "times": [
+            "17:55"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night19-habokdae-ochang-s09",
+          "name": "구오창 (오창낚시 앞)",
+          "times": [
+            "18:05"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-night22-a",
+      "category": "청주 출근",
+      "service": "야간 출근 (22시)",
+      "name": "용암/분평/오창 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "19.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-night22-a-s01",
+          "name": "용암농협사거리 (구두수선소)",
+          "times": [
+            "20:12"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-a-s02",
+          "name": "분평전자랜드",
+          "times": [
+            "20:14"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-a-s03",
+          "name": "청주남부정류소 하차장",
+          "times": [
+            "20:17"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-a-s04",
+          "name": "CJ비디아이센터 맞은편",
+          "times": [
+            "20:18"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-a-s05",
+          "name": "KBS 맞은편 버스정류장",
+          "times": [
+            "20:21"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-a-s06",
+          "name": "서남교회",
+          "times": [
+            "20:25"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-a-s07",
+          "name": "개신동 롯데리아",
+          "times": [
+            "20:28"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-a-s08",
+          "name": "오성당 앞 버스정류장",
+          "times": [
+            "20:33"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-a-s09",
+          "name": "시외버스터미널 맞은편 롯데마트 입구",
+          "times": [
+            "20:35"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-a-s10",
+          "name": "영조1차아파트 버스정류장",
+          "times": [
+            "20:40"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-a-s11",
+          "name": "오창 우림1차 정류장",
+          "times": [
+            "21:00"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-a-s12",
+          "name": "오창호수공원",
+          "times": [
+            "21:03"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-a-s13",
+          "name": "오창 스타레이크 앞 버스정류장",
+          "times": [
+            "21:08"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-night22-b",
+      "category": "청주 출근",
+      "service": "야간 출근 (22시)",
+      "name": "금천/봉명/오창 노선",
+      "direction": "출근",
+      "timeLabels": [
+        "시간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "19.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-night22-b-s01",
+          "name": "금천사우나 건너편(장자마을 9,10단지 아파트 정류장)",
+          "times": [
+            "20:20"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-b-s02",
+          "name": "금천현대 건너편 (정류장)",
+          "times": [
+            "20:22"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-b-s03",
+          "name": "효성병원 사거리 (이브자리)",
+          "times": [
+            "20:24"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-b-s04",
+          "name": "모충대교 흙침대 앞",
+          "times": [
+            "20:28"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-b-s05",
+          "name": "사직사거리 BYC",
+          "times": [
+            "20:33"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-b-s06",
+          "name": "사창사거리 (삼성가스 맞은편 이마트24)",
+          "times": [
+            "20:36"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-b-s07",
+          "name": "봉명사거리 (건강검진센터)",
+          "times": [
+            "20:38"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-b-s08",
+          "name": "신봉사거리 (부자알뜰주유소)",
+          "times": [
+            "20:40"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-b-s09",
+          "name": "시영사거리 (농협 앞)",
+          "times": [
+            "20:43"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-b-s10",
+          "name": "덕성초 맞은편 (구. 쉐보레 자동차)",
+          "times": [
+            "20:46"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-night22-b-s11",
+          "name": "구오창 (오창낚시 앞)",
+          "times": [
+            "21:00"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-off-0420-2220-a",
+      "category": "청주 퇴근",
+      "service": "04:20 / 22:20 퇴근",
+      "name": "용암/분평/오창 방면",
+      "direction": "퇴근",
+      "timeLabels": [],
+      "departureTimes": [
+        "04:20",
+        "22:20"
+      ],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "20.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-off-0420-2220-a-s01",
+          "name": "용암농협사거리 (이경미감자탕)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-a-s02",
+          "name": "분평전자랜드",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-a-s03",
+          "name": "청주남부정류소 하차장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-a-s04",
+          "name": "CJ비디아이센터 맞은편",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-a-s05",
+          "name": "KBS 맞은편 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-a-s06",
+          "name": "서남교회",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-a-s07",
+          "name": "개신동 롯데리아",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-a-s08",
+          "name": "오성당 앞 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-a-s09",
+          "name": "시외버스터미널 맞은편 롯데마트 입구",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-a-s10",
+          "name": "영조1차아파트 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-a-s11",
+          "name": "오창 우림1차 정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-a-s12",
+          "name": "오창 호수공원 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-a-s13",
+          "name": "오창 스타레이크 앞 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-off-0420-2220-b",
+      "category": "청주 퇴근",
+      "service": "04:20 / 22:20 퇴근",
+      "name": "금천/봉명/오창 방면",
+      "direction": "퇴근",
+      "timeLabels": [],
+      "departureTimes": [
+        "04:20",
+        "22:20"
+      ],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "20.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-off-0420-2220-b-s01",
+          "name": "금천사우나 건너편(장자마을 9,10단지 아파트 정류장)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-b-s02",
+          "name": "금천현대아파트 건너편 정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-b-s03",
+          "name": "효성병원 사거리 (이브자리)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-b-s04",
+          "name": "모충대교 흙침대 앞",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-b-s05",
+          "name": "사직사거리 BYC",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-b-s06",
+          "name": "사창사거리 (삼성가스 맞은편 이마트24)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-b-s07",
+          "name": "봉명사거리 (건강검진센터)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-b-s08",
+          "name": "우림마트 옆 한국타이어 맞은편",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-b-s09",
+          "name": "시영사거리 (농협 앞)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-b-s10",
+          "name": "덕성초 맞은편 (구. 쉐보레 자동차)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0420-2220-b-s11",
+          "name": "구오창 (오창낚시 앞)",
+          "times": [],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-off-0720-1620-a",
+      "category": "청주 퇴근",
+      "service": "07:20 / 16:20 퇴근",
+      "name": "율량/오창 방면",
+      "direction": "퇴근",
+      "timeLabels": [],
+      "departureTimes": [
+        "07:20",
+        "16:20"
+      ],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "21.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-off-0720-1620-a-s01",
+          "name": "홈타운 횡단보도",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s02",
+          "name": "이화산부인과 앞",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s03",
+          "name": "육거리 (영춘당 한약방)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s04",
+          "name": "영프라자 건너 (공원 화방)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s05",
+          "name": "북문119안전센터",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s06",
+          "name": "시외버스 북부하차장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s07",
+          "name": "운천동 주민센터 앞",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s08",
+          "name": "우림마트 옆 한국타이어 맞은편",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s09",
+          "name": "시영사거리 (농협 앞)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s10",
+          "name": "덕성초 맞은편 (구. 쉐보레 자동차)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s11",
+          "name": "오창 우림1차 정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s12",
+          "name": "오창호수공원",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s13",
+          "name": "오창 스타레이크 앞 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-a-s14",
+          "name": "구오창 (오창낚시 앞)",
+          "times": [],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-off-0720-1620-b",
+      "category": "청주 퇴근",
+      "service": "07:20 / 16:20 퇴근",
+      "name": "동남/금천/봉명 방면",
+      "direction": "퇴근",
+      "timeLabels": [],
+      "departureTimes": [
+        "07:20",
+        "16:20"
+      ],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "21.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-off-0720-1620-b-s01",
+          "name": "동남지구 파라곤아파트 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-b-s02",
+          "name": "동남지구 파밀리에치과 맞은편",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-b-s03",
+          "name": "청주 농협용암지점 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-b-s04",
+          "name": "금천고(팔각정) 정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-b-s05",
+          "name": "금천사우나 건너편(장자마을 9,10단지 아파트 정류장)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-b-s06",
+          "name": "금천현대 건너편 정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-b-s07",
+          "name": "효성병원 사거리 (이브자리)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-b-s08",
+          "name": "모충대교 흙침대 앞",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-b-s09",
+          "name": "사직사거리 BYC",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-b-s10",
+          "name": "사창사거리 (다이소 앞)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-b-s11",
+          "name": "봉명사거리 (우리은행)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-b-s12",
+          "name": "국영에너지 하나주유소 출구",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-b-s13",
+          "name": "충청대학교 평생직업교육원 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-off-0720-1620-c",
+      "category": "청주 퇴근",
+      "service": "07:20 / 16:20 퇴근",
+      "name": "분평/개신/하복대 방면",
+      "direction": "퇴근",
+      "timeLabels": [],
+      "departureTimes": [
+        "07:20",
+        "16:20"
+      ],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "22.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-off-0720-1620-c-s01",
+          "name": "분평2단지 대웅약국 앞",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-c-s02",
+          "name": "분평1단지 뜨란채 정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-c-s03",
+          "name": "청주남부정류소 하차장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-c-s04",
+          "name": "수곡중학교 맞은편 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-c-s05",
+          "name": "수곡초 (한마음@ 입구)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-c-s06",
+          "name": "KBS 맞은편 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-c-s07",
+          "name": "서남교회",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-c-s08",
+          "name": "개신동 롯데리아",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-c-s09",
+          "name": "덕일타운 (다리)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-c-s10",
+          "name": "오성당 앞 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-c-s11",
+          "name": "시외버스터미널 맞은편 롯데마트 입구",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-c-s12",
+          "name": "영조1차아파트 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-0720-1620-c-s13",
+          "name": "효성아파트",
+          "times": [],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-off-1745-1920-a",
+      "category": "청주 퇴근",
+      "service": "17:45 / 19:20 퇴근",
+      "name": "동남/율량 방면",
+      "direction": "퇴근",
+      "timeLabels": [],
+      "departureTimes": [
+        "17:45",
+        "19:20"
+      ],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "23.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-off-1745-1920-a-s01",
+          "name": "동남지구 파라곤아파트 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-a-s02",
+          "name": "동남지구 파밀리에치과 맞은편",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-a-s03",
+          "name": "홈타운 횡단보도",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-a-s04",
+          "name": "이화산부인과 앞",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-a-s05",
+          "name": "육거리(영춘당 한약방)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-a-s06",
+          "name": "영프라자 건너(공원 화방)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-a-s07",
+          "name": "북문119안전센터",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-a-s08",
+          "name": "시외버스 북부하차장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-a-s09",
+          "name": "운천동 주민센터 앞",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-a-s10",
+          "name": "무심천 주유소",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-a-s11",
+          "name": "시영사거리(농협앞)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-a-s12",
+          "name": "덕성초 맞은편 (구. 쉐보레 자동차)",
+          "times": [],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-off-1745-1920-b",
+      "category": "청주 퇴근",
+      "service": "17:45 / 19:20 퇴근",
+      "name": "용암/모충/복대 방면",
+      "direction": "퇴근",
+      "timeLabels": [],
+      "departureTimes": [
+        "17:45",
+        "19:20"
+      ],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "23.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-off-1745-1920-b-s01",
+          "name": "방서지구 다이소 앞",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-b-s02",
+          "name": "청주 농협용암지점 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-b-s03",
+          "name": "금천고(팔각정) 정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-b-s04",
+          "name": "금천사우나 건너편(장자마을 9,10단지 아파트 정류장)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-b-s05",
+          "name": "금천현대 건너편(정류장)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-b-s06",
+          "name": "효성병원 사거리(이브자리)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-b-s07",
+          "name": "모충대교 흙침대 앞",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-b-s08",
+          "name": "사직사거리 BYC",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-b-s09",
+          "name": "사창사거리 (다이소 앞)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-b-s10",
+          "name": "복대동 서울아동병원 앞",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-b-s11",
+          "name": "현대2차아파트",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-b-s12",
+          "name": "아름다운나날",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-b-s13",
+          "name": "효성아파트",
+          "times": [],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-off-1745-1920-c",
+      "category": "청주 퇴근",
+      "service": "17:45 / 19:20 퇴근",
+      "name": "분평/개신/가경 방면",
+      "direction": "퇴근",
+      "timeLabels": [],
+      "departureTimes": [
+        "17:45",
+        "19:20"
+      ],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "24.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-off-1745-1920-c-s01",
+          "name": "분평2단지 대웅약국 앞",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-c-s02",
+          "name": "분평1단지 뜨란채 정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-c-s03",
+          "name": "청주남부정류소 하차장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-c-s04",
+          "name": "수곡중학교 맞은편 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-c-s05",
+          "name": "수곡초 (한마음@입구)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-c-s06",
+          "name": "KBS 맞은편 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-c-s07",
+          "name": "서남 교회",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-c-s08",
+          "name": "개신동 롯데리아",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-c-s09",
+          "name": "덕일타운 (다리)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-c-s10",
+          "name": "오성당 앞 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-c-s11",
+          "name": "시외터미널 맞은편 롯데마트 입구",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-c-s12",
+          "name": "가경서현초 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-off-1745-1920-d",
+      "category": "청주 퇴근",
+      "service": "17:45 / 19:20 퇴근",
+      "name": "오창/광혜원 방면",
+      "direction": "퇴근",
+      "timeLabels": [],
+      "departureTimes": [
+        "17:45",
+        "19:20"
+      ],
+      "operationDays": "일요일~금요일",
+      "notes": "",
+      "sourceImages": [
+        "24.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-off-1745-1920-d-s01",
+          "name": "충청대학교 평생직업교육원 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-d-s02",
+          "name": "국영에너지 하나주유소 출구",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-d-s03",
+          "name": "송절동 지웰푸르지오 정문 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-d-s04",
+          "name": "송절동 테크노폴리스 힐데스하임 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-d-s05",
+          "name": "오창 우림1차 정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-d-s06",
+          "name": "오창호수공원",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-d-s07",
+          "name": "오창스타레이크 앞 버스정류장",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-d-s08",
+          "name": "구오창 (오창낚시 앞)",
+          "times": [],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-off-1745-1920-d-s09",
+          "name": "광혜원 삼거리",
+          "times": [],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "cj-sat",
+      "category": "청주 토요일",
+      "service": "토요일 운행",
+      "name": "청주 토요일 노선",
+      "direction": "출근/퇴근",
+      "timeLabels": [
+        "조출",
+        "주전"
+      ],
+      "departureTimes": [],
+      "operationDays": "토요일",
+      "notes": "",
+      "sourceImages": [
+        "25.png"
+      ],
+      "stops": [
+        {
+          "id": "cj-sat-s01",
+          "name": "대성주유소 앞",
+          "times": [
+            "05:21",
+            "06:39"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-sat-s02",
+          "name": "육거리 영춘당",
+          "times": [
+            "05:24",
+            "06:42"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-sat-s03",
+          "name": "공원화방",
+          "times": [
+            "05:26",
+            "06:44"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-sat-s04",
+          "name": "사직사거리",
+          "times": [
+            "05:31",
+            "06:50"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-sat-s05",
+          "name": "사창사거리",
+          "times": [
+            "05:34",
+            "06:53"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-sat-s06",
+          "name": "오복치과",
+          "times": [
+            "05:40",
+            "06:59"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-sat-s07",
+          "name": "솔밭사거리(서울좋은치과)",
+          "times": [
+            "05:45",
+            "07:05"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-sat-s08",
+          "name": "율량중 승강장",
+          "times": [
+            "05:55",
+            "07:15"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-sat-s09",
+          "name": "오창스타레이크 앞 버스정류장(샤인당화장품 오창공장 앞)",
+          "times": [
+            "06:00",
+            "07:25"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-sat-s10",
+          "name": "구오창",
+          "times": [
+            "06:05",
+            "07:32"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-sat-s11",
+          "name": "광혜원다리",
+          "times": [
+            "06:25",
+            "07:57"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "cj-sat-s12",
+          "name": "음성공장",
+          "times": [
+            "17:45 (퇴근 역순)",
+            "19:20 (퇴근 역순)"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "regional-icheon-juksan",
+      "category": "지역 노선",
+      "service": "지역 출근/퇴근",
+      "name": "이천/죽산 노선",
+      "direction": "출근/퇴근",
+      "timeLabels": [
+        "조출",
+        "주전",
+        "야출"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "퇴근: 공장출발(04:20, 07:20, 19:20) → 출근 역순",
+      "sourceImages": [
+        "26.png"
+      ],
+      "stops": [
+        {
+          "id": "regional-icheon-juksan-s01",
+          "name": "시청 맞은편 버스정류장",
+          "times": [
+            "05:18",
+            "06:50",
+            "17:20"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s02",
+          "name": "자수성 사우나 앞",
+          "times": [
+            "05:19",
+            "06:51",
+            "17:21"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s03",
+          "name": "설봉산 입구 버스정류장",
+          "times": [
+            "05:21",
+            "06:53",
+            "17:23"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s04",
+          "name": "관고로터리",
+          "times": [
+            "05:22",
+            "06:54",
+            "17:24"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s05",
+          "name": "한국전력공사 이천지사 앞",
+          "times": [
+            "05:25",
+            "06:57",
+            "17:27"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s06",
+          "name": "이천 노엘병원 맞은편",
+          "times": [
+            "05:28",
+            "07:00",
+            "17:30"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s07",
+          "name": "현대 2차 아파트",
+          "times": [
+            "05:29",
+            "07:01",
+            "17:31"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s08",
+          "name": "시민회관",
+          "times": [
+            "05:31",
+            "07:03",
+            "17:33"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s09",
+          "name": "설봉온천 뒷편",
+          "times": [
+            "05:32",
+            "07:04",
+            "17:34"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s10",
+          "name": "OB맥주 정류장",
+          "times": [
+            "05:40",
+            "07:12",
+            "17:43"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s11",
+          "name": "장록동(이정표)",
+          "times": [
+            "05:44",
+            "07:16",
+            "17:46"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s12",
+          "name": "죽산터미널 하나로마트",
+          "times": [
+            "06:10",
+            "07:44",
+            "18:16"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s13",
+          "name": "광혜원 검문소",
+          "times": [
+            "06:23",
+            "07:50",
+            "18:22"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-icheon-juksan-s14",
+          "name": "광혜원 뚜레쥬르 앞",
+          "times": [
+            "06:25",
+            "07:52",
+            "미운행"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "regional-maengdong-jincheon",
+      "category": "지역 노선",
+      "service": "지역 출근/퇴근",
+      "name": "맹동/진천 노선",
+      "direction": "출근/퇴근",
+      "timeLabels": [
+        "주간",
+        "야간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "퇴근: 공장출발(04:20, 19:20) → 출근 역순",
+      "sourceImages": [
+        "27.png"
+      ],
+      "stops": [
+        {
+          "id": "regional-maengdong-jincheon-s01",
+          "name": "쌍용예가 2단지 승강장",
+          "times": [
+            "07:10",
+            "17:45"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-maengdong-jincheon-s02",
+          "name": "천년나무 7단지 승강장",
+          "times": [
+            "07:13",
+            "17:47"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-maengdong-jincheon-s03",
+          "name": "농협 앞(농협다리)",
+          "times": [
+            "07:26",
+            "18:03"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-maengdong-jincheon-s04",
+          "name": "진천 터미널",
+          "times": [
+            "07:27",
+            "18:04"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-maengdong-jincheon-s05",
+          "name": "중앙교회 (버스정류장)",
+          "times": [
+            "07:30",
+            "18:07"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-maengdong-jincheon-s06",
+          "name": "부영아파트 정류장",
+          "times": [
+            "07:31",
+            "18:10"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-maengdong-jincheon-s07",
+          "name": "이월 지구대 앞",
+          "times": [
+            "07:41",
+            "18:19"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-maengdong-jincheon-s08",
+          "name": "문화 마을 버스정류장",
+          "times": [
+            "07:43",
+            "18:20"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-maengdong-jincheon-s09",
+          "name": "갑을 아파트",
+          "times": [
+            "07:44",
+            "18:21"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-maengdong-jincheon-s10",
+          "name": "광혜원 뚜레쥬르 앞",
+          "times": [
+            "미운행",
+            "18:30"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "regional-eumseong-geumwang",
+      "category": "지역 노선",
+      "service": "지역 출근/퇴근",
+      "name": "음성/금왕 노선",
+      "direction": "출근/퇴근",
+      "timeLabels": [
+        "주간",
+        "야간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "퇴근: 공장출발(04:20, 19:20) → 출근 역순",
+      "sourceImages": [
+        "28.png"
+      ],
+      "stops": [
+        {
+          "id": "regional-eumseong-geumwang-s01",
+          "name": "음성포란채아파트 (반기문기념관 주차장)",
+          "times": [
+            "07:12",
+            "17:42"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-eumseong-geumwang-s02",
+          "name": "지적공사",
+          "times": [
+            "07:13",
+            "17:45"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-eumseong-geumwang-s03",
+          "name": "음성터미널 (KB국민은행 ATM)",
+          "times": [
+            "07:15",
+            "17:51"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-eumseong-geumwang-s04",
+          "name": "실내체육관",
+          "times": [
+            "07:18",
+            "17:54"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-eumseong-geumwang-s05",
+          "name": "음성소방서",
+          "times": [
+            "07:19",
+            "17:56"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-eumseong-geumwang-s06",
+          "name": "신터미널",
+          "times": [
+            "07:34",
+            "18:08"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-eumseong-geumwang-s07",
+          "name": "금왕두진아파트 (쇼핑타운)",
+          "times": [
+            "07:37",
+            "18:11"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-eumseong-geumwang-s08",
+          "name": "본대리 버스 정류장",
+          "times": [
+            "07:44",
+            "18:17"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-eumseong-geumwang-s09",
+          "name": "대소SK아파트 (길 건너 버스정류장)",
+          "times": [
+            "07:45",
+            "18:18"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-eumseong-geumwang-s10",
+          "name": "대소연합 맞은편",
+          "times": [
+            "07:49",
+            "18:22"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-eumseong-geumwang-s11",
+          "name": "음성설렁탕 (버스정류장)",
+          "times": [
+            "07:51",
+            "18:24"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-eumseong-geumwang-s12",
+          "name": "오류리 (버스정류장)",
+          "times": [
+            "07:53",
+            "18:26"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    },
+    {
+      "id": "regional-chungju",
+      "category": "지역 노선",
+      "service": "지역 출근/퇴근",
+      "name": "충주 노선",
+      "direction": "출근/퇴근",
+      "timeLabels": [
+        "조출",
+        "주전",
+        "야간"
+      ],
+      "departureTimes": [],
+      "operationDays": "일요일~금요일",
+      "notes": "퇴근: 공장출발(04:20, 19:20) → 출근 역순",
+      "sourceImages": [
+        "29.png"
+      ],
+      "stops": [
+        {
+          "id": "regional-chungju-s01",
+          "name": "호수마을 정류장",
+          "times": [
+            "05:26",
+            "06:45",
+            "17:25"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-chungju-s02",
+          "name": "호암소방서 맞은편 시내버스정류장 (세경아파트)",
+          "times": [
+            "05:29",
+            "06:48",
+            "17:28"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-chungju-s03",
+          "name": "모닝마트 호암점 맞은편",
+          "times": [
+            "05:32",
+            "06:52",
+            "17:31"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-chungju-s04",
+          "name": "GS마트 시내버스 정류장 (싱싱포차)",
+          "times": [
+            "05:34",
+            "06:56",
+            "17:33"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-chungju-s05",
+          "name": "LG아파트 시내버스 정류장",
+          "times": [
+            "05:37",
+            "07:00",
+            "17:36"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-chungju-s06",
+          "name": "충주 중앙 신협 앞",
+          "times": [
+            "05:40",
+            "07:02",
+            "17:38"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-chungju-s07",
+          "name": "실내체육관 사거리 코너 (힐링칸 앞)",
+          "times": [
+            "05:43",
+            "07:05",
+            "17:41"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-chungju-s08",
+          "name": "연수주공1단지 담장 앞 버스정류장",
+          "times": [
+            "05:48",
+            "07:10",
+            "17:46"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-chungju-s09",
+          "name": "부영공원(금릉초) 시내버스 정류장",
+          "times": [
+            "05:53",
+            "07:14",
+            "17:51"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-chungju-s10",
+          "name": "충주역",
+          "times": [
+            "05:58",
+            "07:19",
+            "17:56"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-chungju-s11",
+          "name": "교통대학교 농협 정류장",
+          "times": [
+            "06:05",
+            "07:26",
+            "18:03"
+          ],
+          "boardingAddress": ""
+        },
+        {
+          "id": "regional-chungju-s12",
+          "name": "대소원 육교 정류장",
+          "times": [
+            "06:12",
+            "07:33",
+            "18:10"
+          ],
+          "boardingAddress": ""
+        }
+      ]
+    }
+  ]
+}
