@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#173a67">
+  <meta name="robots" content="noindex,nofollow">
+  <title>통근버스 노선 관리자</title>
+  <link rel="stylesheet" href="admin.css">
+</head>
+<body>
+  <a class="skip-link" href="#route-editor">편집 영역으로 건너뛰기</a>
+  <header class="topbar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">B</span>
+      <div><strong>통근버스 노선 관리자</strong><small>노선·정류장·시간·탑승위치 편집</small></div>
+    </div>
+    <div class="top-actions">
+      <span id="save-state" class="save-state" role="status">불러오는 중…</span>
+      <button id="undo-btn" class="button ghost" type="button" disabled>실행 취소</button>
+      <button id="redo-btn" class="button ghost" type="button" disabled>다시 실행</button>
+      <button id="validate-btn" class="button secondary" type="button">검사</button>
+      <button id="export-btn" class="button primary" type="button" disabled>routes.json 내보내기</button>
+    </div>
+  </header>
+
+  <aside class="notice" aria-label="게시 안내">
+    <strong>안전한 정적 편집 방식:</strong> 여기서 수정한 내용은 이 브라우저의 임시 초안에만 저장됩니다.
+    <b>routes.json 내보내기</b> 후 GitHub의 <code>data/routes.json</code>을 교체하고 Commit해야 직원용 앱에 반영됩니다.
+  </aside>
+
+  <main class="app-shell">
+    <section class="route-panel" aria-label="노선 목록">
+      <div class="panel-head">
+        <div><h1>노선</h1><p id="summary">0개 노선 · 0개 정류장</p></div>
+        <button id="add-route-btn" class="icon-button" type="button" aria-label="새 노선 추가" title="새 노선 추가">＋</button>
+      </div>
+      <div class="filters">
+        <label class="search-field"><span class="sr-only">노선 검색</span><input id="route-search" type="search" placeholder="노선명·지역·구분 검색"></label>
+        <select id="active-filter" aria-label="운영 상태 필터"><option value="all">전체 상태</option><option value="active">운영</option><option value="inactive">미운영</option></select>
+      </div>
+      <div id="route-list" class="route-list" role="listbox" aria-label="노선 선택"></div>
+      <div class="panel-foot">
+        <button id="import-btn" class="button full" type="button">다른 JSON 불러오기</button>
+        <button id="restore-btn" class="button ghost full" type="button" hidden>로컬 초안 복원</button>
+        <button id="reset-btn" class="button danger-text full" type="button">배포본으로 초기화</button>
+        <input id="file-input" type="file" accept="application/json,.json" hidden>
+      </div>
+    </section>
+
+    <section id="route-editor" class="editor-panel" tabindex="-1">
+      <div id="empty-state" class="empty-state">
+        <div class="empty-icon" aria-hidden="true">↖</div><h2>편집할 노선을 선택하세요</h2><p>왼쪽 목록에서 노선을 선택하거나 새 노선을 추가할 수 있습니다.</p>
+      </div>
+      <div id="editor-content" hidden>
+        <div class="editor-heading">
+          <div><p class="eyebrow">선택한 노선</p><h2 id="editor-title">노선 편집</h2></div>
+          <div class="route-actions">
+            <button id="duplicate-route-btn" class="button ghost" type="button">복제</button>
+            <button id="delete-route-btn" class="button danger" type="button">노선 삭제</button>
+          </div>
+        </div>
+
+        <form id="route-form" autocomplete="off">
+          <fieldset class="card">
+            <legend>기본 정보</legend>
+            <div class="form-grid">
+              <label class="field wide"><span>노선명 <b>*</b></span><input name="name" required></label>
+              <label class="field"><span>노선 ID <b>*</b></span><input name="id" required spellcheck="false"></label>
+              <label class="field"><span>지역</span><input name="region" placeholder="예: 청주"></label>
+              <label class="field"><span>운행 방향</span><input name="direction" placeholder="예: 출근 / 퇴근"></label>
+              <label class="field"><span>근무·시간 구분</span><input name="service" placeholder="예: 조간 / 주간 / 07:20"></label>
+              <label class="field"><span>운행 요일</span><input name="days" placeholder="예: 월~금"></label>
+              <label class="switch-field"><input name="active" type="checkbox"><span class="switch" aria-hidden="true"></span><span>운영 중</span></label>
+              <label class="field wide"><span>관리 메모</span><textarea name="notes" rows="2" placeholder="직원 화면 표시 여부는 기존 데이터 구조를 따릅니다."></textarea></label>
+            </div>
+          </fieldset>
+
+          <section class="card stops-card" aria-labelledby="stops-title">
+            <div class="section-head"><div><h3 id="stops-title">정류장</h3><p id="stop-count">0개</p></div><button id="add-stop-btn" class="button secondary" type="button">＋ 정류장 추가</button></div>
+            <div class="table-wrap">
+              <table>
+                <thead><tr><th class="order-col">순서</th><th class="time-col">시간</th><th>정류장명</th><th>탑승위치 주소</th><th class="id-col">정류장 ID</th><th class="actions-col">작업</th></tr></thead>
+                <tbody id="stops-body"></tbody>
+              </table>
+            </div>
+            <div id="mobile-stops" class="mobile-stops"></div>
+          </section>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <dialog id="validation-dialog">
+    <form method="dialog" class="dialog-card"><div class="dialog-head"><h2>데이터 검사 결과</h2><button class="dialog-close" value="cancel" aria-label="닫기">×</button></div><div id="validation-result"></div><div class="dialog-actions"><button class="button primary" value="ok">확인</button></div></form>
+  </dialog>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="admin-core.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>
