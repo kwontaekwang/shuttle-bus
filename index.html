@@ -3,80 +3,91 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#0b5c4b">
-  <meta name="description" content="음성공장 통근버스 노선과 정류장별 탑승위치 주소를 확인하는 모바일 앱">
-  <link rel="manifest" href="manifest.webmanifest">
-  <link rel="icon" href="assets/icon-192.png">
-  <link rel="apple-touch-icon" href="assets/icon-192.png">
-  <link rel="stylesheet" href="styles.css">
+  <meta name="theme-color" content="#075f4d">
+  <meta name="description" content="CJ푸드빌 음성공장 통근버스 노선 안내">
   <title>음성공장 통근버스</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="styles.css?v=20261118-2">
 </head>
 <body>
-  <a class="skip-link" href="#routes">노선 목록으로 이동</a>
-  <header class="hero">
-    <div class="hero__inner">
-      <div class="brand-mark" aria-hidden="true">BUS</div>
-      <div>
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="bus-mark" aria-hidden="true">BUS</div>
+      <div class="brand-copy">
         <p class="eyebrow">CJ FOODVILLE · EUMSEONG</p>
         <h1>음성공장 통근버스</h1>
-        <p id="updatedText" class="updated"></p>
+        <p id="dataDate" class="data-date">노선 데이터 확인 중</p>
       </div>
-      <button id="manageToggle" class="icon-button" type="button" aria-pressed="false" title="주소 관리 모드">관리</button>
+      <a class="admin-link" href="admin.html" aria-label="관리자용 노선 편집 화면 열기">관리</a>
     </div>
   </header>
 
-  <main>
-    <section id="notice" class="notice" aria-label="운행 안내"></section>
-
-    <section class="finder" aria-label="노선 찾기">
-      <label class="search-box">
-        <span aria-hidden="true">⌕</span>
-        <input id="searchInput" type="search" placeholder="노선·정류장·주소 검색" autocomplete="off">
-        <button id="clearSearch" class="clear-button" type="button" aria-label="검색어 지우기">×</button>
-      </label>
-      <div id="categoryChips" class="chips" role="group" aria-label="지역 필터"></div>
-      <div id="serviceChips" class="chips chips--sub" role="group" aria-label="근무조 필터"></div>
-      <label class="favorite-filter"><input id="favoriteOnly" type="checkbox"> 즐겨찾기만</label>
+  <main class="app-main">
+    <section class="notice" aria-label="운행 안내">
+      <ul>
+        <li>음성공장 통근버스는 일요일~금요일 운행합니다.</li>
+        <li>토요일은 청주 조간/주간 2대만 운행합니다.</li>
+      </ul>
     </section>
 
-    <section id="adminPanel" class="admin-panel" hidden>
+    <section class="search-panel" aria-label="노선 검색 및 필터">
+      <label class="search-box" for="searchInput">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <span class="sr-only">노선, 정류장 또는 주소 검색</span>
+        <input id="searchInput" type="search" inputmode="search" autocomplete="off" placeholder="노선·정류장·주소 검색">
+        <button id="clearSearch" class="clear-search" type="button" aria-label="검색어 지우기">×</button>
+      </label>
+
+      <div id="primaryFilters" class="chip-row" role="group" aria-label="노선 구분">
+        <button class="chip is-active" type="button" data-primary="all">전체</button>
+        <button class="chip" type="button" data-primary="cheongju-in">청주 출근</button>
+        <button class="chip" type="button" data-primary="cheongju-out">청주 퇴근</button>
+        <button class="chip" type="button" data-primary="cheongju-sat">청주 토요일</button>
+        <button class="chip" type="button" data-primary="regional">지역 노선</button>
+      </div>
+
+      <div id="secondaryFilters" class="chip-row secondary" role="group" aria-label="운행 시간 구분">
+        <button class="chip is-active" type="button" data-secondary="all">전체</button>
+        <button class="chip" type="button" data-secondary="조간 출근">조간 출근</button>
+        <button class="chip" type="button" data-secondary="주간 출근">주간 출근</button>
+        <button class="chip" type="button" data-secondary="석간 출근">석간 출근</button>
+        <button class="chip" type="button" data-secondary="야간 출근 19">야간 출근 (19시)</button>
+        <button class="chip" type="button" data-secondary="야간 출근 22">야간 출근 (22시)</button>
+        <button class="chip" type="button" data-secondary="04:20 22:20 퇴근">04:20 / 22:20 퇴근</button>
+        <button class="chip" type="button" data-secondary="07:20 16:20 퇴근">07:20 / 16:20 퇴근</button>
+        <button class="chip" type="button" data-secondary="17:45 19:20 퇴근">17:45 / 19:20 퇴근</button>
+        <button class="chip" type="button" data-secondary="토요일">토요일 운행</button>
+      </div>
+
+      <label class="favorite-only"><input id="favoriteOnly" type="checkbox"> 즐겨찾기만</label>
+    </section>
+
+    <section class="address-panel" aria-label="탑승위치 주소 관리">
       <div>
         <strong>탑승위치 주소 관리</strong>
-        <p>주소는 이 기기에 자동 저장됩니다. 배포 데이터에 반영하려면 전체 데이터 내보내기 파일의 주소 값을 <code>data/routes.json</code>에 반영하세요.</p>
+        <p>주소는 이 기기에 자동 저장됩니다. 배포 데이터에 반영하려면 전체 데이터를 내보내 GitHub의 <code>data/routes.json</code>과 교체하세요.</p>
       </div>
-      <div class="admin-actions">
-        <button id="exportData" type="button">전체 데이터 내보내기</button>
-        <button id="resetAddresses" class="button--danger" type="button">이 기기 주소 초기화</button>
+      <div class="address-actions">
+        <button id="exportData" class="button primary" type="button">전체 데이터 내보내기</button>
+        <button id="resetAddresses" class="button danger" type="button">이 기기 주소 초기화</button>
       </div>
     </section>
 
-    <div class="result-line"><strong id="resultCount">0</strong><span>개 노선</span><span id="searchSummary"></span></div>
-    <section id="routes" class="route-list" aria-live="polite"></section>
-    <div id="emptyState" class="empty" hidden><strong>검색 결과가 없습니다.</strong><p>필터를 해제하거나 다른 정류장명을 입력해 보세요.</p></div>
+    <div class="result-heading">
+      <p><strong id="visibleCount">0</strong> <span>개 노선</span></p>
+      <button id="expandAll" class="text-button" type="button">모두 펼치기</button>
+    </div>
+
+    <section id="statusBox" class="status-box" aria-live="polite">
+      <div class="spinner" aria-hidden="true"></div>
+      <strong>노선 데이터를 불러오는 중입니다.</strong>
+    </section>
+
+    <section id="routeList" class="route-list" aria-label="통근버스 노선 목록"></section>
   </main>
 
-  <template id="routeTemplate">
-    <article class="route-card">
-      <details>
-        <summary>
-          <div class="route-accent"></div>
-          <div class="route-heading">
-            <div class="badges"></div>
-            <h2></h2>
-            <p class="route-meta"></p>
-          </div>
-          <button class="favorite-button" type="button" aria-label="즐겨찾기">☆</button>
-          <span class="chevron" aria-hidden="true">⌄</span>
-        </summary>
-        <div class="route-body">
-          <div class="route-note"></div>
-          <ol class="stop-list"></ol>
-        </div>
-      </details>
-    </article>
-  </template>
-
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
-  <script type="module" src="app.js"></script>
+  <noscript>이 앱을 사용하려면 브라우저에서 JavaScript를 허용해야 합니다.</noscript>
+  <script src="app.js?v=20261118-2" defer></script>
 </body>
 </html>
